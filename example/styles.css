@@ -9,3 +9,4 @@ menu { height: 30px; width: 96%; border-top: 1px solid #eee; border-bottom: 1px 
 button { background: green; #00921c; color: #fff; padding: 5px; border: none; cursor: pointer; }
 button.danger { background: #c30000; }
 button.warning { background: #cf7c00; }
+footer { padding: 10px; text-align: center; }
