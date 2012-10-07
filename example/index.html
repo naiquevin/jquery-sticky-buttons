@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery StickyButtons example</title>    
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>jQuery StickyButtons</h1>
+        <p>A jQuery plugin that makes action buttons (in fact any
+          thing!) stick to the top as the user scrolls down to fill in
+          a long form so that they don't need to scroll back again to
+          the top to click on them. Start scrolling down to see it in
+          action!</p>
+      </header>
+      <menu>
+        <button>Save</button>
+        <button class="warning">Save and continue editing</button>
+        <button class="danger">Delete</button>
+      </menu>
+      <div class="longDiv">
+        <section>
+          <h2>Imagine this to be a large form!</h2>
+        </section>
+        <section>
+          <h2>..now scroll down some</h2>
+        </section>
+        <section>
+          <h2>now scroll back to the top to make the sticky bar disappear</h2>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript" src="../lib/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../jquery.stickybuttons.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
+
