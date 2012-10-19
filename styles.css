@@ -1,0 +1,12 @@
+body { background: #f2f2f2; color: #666; font-family: helvetica; }
+a { color: #c30000; }
+.container { width: 960px; margin: 0 auto; background: #fff; }
+header { height: 140px; padding: 10px 2%; width: 96%;  }
+menu { height: 30px; width: 96%; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 10px 2%; text-align: right; }
+.longDiv { height: 1000px; }
+.longDiv section { height: 40px; padding: 10px 0; margin-bottom: 200px; text-align: center; }
+.longDiv section h2 { color: #ccc;  }
+button { background: green; #00921c; color: #fff; padding: 5px; border: none; cursor: pointer; }
+button.danger { background: #c30000; }
+button.warning { background: #cf7c00; }
+footer { padding: 10px; text-align: center; }
