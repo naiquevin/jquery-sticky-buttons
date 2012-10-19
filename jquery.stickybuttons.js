@@ -1,4 +1,5 @@
 (function ($, window, undefined) {
+    "use strict";
 
     var _bid_attr_name = 'sticky-btn-id';
     var _hidden_state_class = 'hiddenStickyBtn'
