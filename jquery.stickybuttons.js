@@ -107,7 +107,7 @@
             return ['id', s4(), s4()].join('-');
         };
 
-        $(window).scroll(function () {
+        $(window).bind('scroll.stickybuttons', function () {
             var top = that.$el.offset().top;
             var scrollTop = $(document).scrollTop();
             if (scrollTop > top) {
