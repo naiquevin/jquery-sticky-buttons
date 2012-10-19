@@ -12,7 +12,7 @@ top of the page so that the user doesn't need to scroll back to the
 top again to click on them.
 
 Such behaviour is observed in administration panel of
-[Magento](http://magentocommerce.com)
+Magento installation.
 
 
 ### Usage
